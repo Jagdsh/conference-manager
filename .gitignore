@@ -1,0 +1,13 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+src/**/bin
+src/**/obj
+tests/**/bin
+tests/**/obj
+
+# user files
+_ReSharper.*
+*.user
+*.suo
+
+# mstest test results
+TestResults

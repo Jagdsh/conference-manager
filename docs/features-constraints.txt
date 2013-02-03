@@ -1,0 +1,26 @@
+conference
+- tracks
+    - morning
+    - afternoon
+- sessions
+    - start
+    - stop
+conference
+    :: tracks > 0
+    - tracks..n
+	- morning session 
+	    :: 9am min
+	    :: 12p max
+	    - talks 1..n
+		:: in minutes
+		:: lightning (5 min)
+		:: title has no numbers
+	- lunch
+	- afternoon session
+	    :: 1pm min
+	    :: 5pm max
+	    - talks ..n
+	- networking event
+	    :: 4pm min
+	    :: 5pm max
+    
